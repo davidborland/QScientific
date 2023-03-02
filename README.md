@@ -1,5 +1,5 @@
 # QScientific
-A set of Qt widgets for scientific visualization
+A set of Qt widgets designed for scientific visualization
 
 * QDoubleSlider:  Basically just some glue to combine a QSlider with a QDoubleSpinBox to enable floating-point sliders (Qt only has integer-valued sliders).
 
