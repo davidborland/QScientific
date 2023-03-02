@@ -1,0 +1,6 @@
+set( QScientific_INCLUDE_DIRS "@PROJECT_SOURCE_DIR@" "@PROJECT_BINARY_DIR@" )
+
+set( QScientific_LIBRARY_DIR "@PROJECT_BINARY_DIR@" )
+set( QScientific_LIB QScientific )
+
+set( QScientific_USE_FILE "@PROJECT_BINARY_DIR@/UseQScientific.cmake" )

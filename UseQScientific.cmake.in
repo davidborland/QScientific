@@ -1,0 +1,7 @@
+if( NOT QScientific_USE_FILE_INCLUDED )
+  set( QScientific_USE_FILE_INCLUDED 1)
+  
+  include_directories( ${QScientific_INCLUDE_DIRS} )
+  link_directories( ${QScientific_LIBRARY_DIR} )
+  
+endif( NOT QScientific_USE_FILE_INCLUDED )
