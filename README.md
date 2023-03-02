@@ -3,15 +3,15 @@ A set of Qt widgets for scientific visualization
 
 * QDoubleSlider:  Basically just some glue to combine a QSlider with a QDoubleSpinBox to enable floating-point sliders (Qt only has integer-valued sliders).
 
-QScientificSpinBox:  A QDoubleSpinBox that can display in scientific notation.
+* QScientificSpinBox:  A QDoubleSpinBox that can display in scientific notation.
 
-QDualValue:  A widget that controls two values via horizontal and vertical position of a 2D slider handle.  May be useful for things like window/level control.
+* QDualValue:  A widget that controls two values via horizontal and vertical position of a 2D slider handle.  May be useful for things like window/level control.
 
-QNonlinearSlider:  An abstract base class for sliders that use a nonlinear function to map slider position to data value.
+* QNonlinearSlider:  An abstract base class for sliders that use a nonlinear function to map slider position to data value.
 
-QPowerSlider:  A QNonlinearSlider that uses a user-controlled power function to map slider position to data value.  The user can interactively control the exponent used for the power function.
+* QPowerSlider:  A QNonlinearSlider that uses a user-controlled power function to map slider position to data value.  The user can interactively control the exponent used for the power function.
 
-QExploratorySlider:  A QNonlinearSlider that uses a combination of two power functions to enable the user to obtain much better precision in a neighborhood around an interactively-specified data value, or between the data value and the ends of the curve.
+* QExploratorySlider:  A QNonlinearSlider that uses a combination of two power functions to enable the user to obtain much better precision in a neighborhood around an interactively-specified data value, or between the data value and the ends of the curve.
 
 
 ![image](https://user-images.githubusercontent.com/289957/222539174-15eeac73-084b-4b9a-a5a1-1c56c81cd3dd.png)
